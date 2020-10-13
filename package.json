@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "bundle": "wepack",
-    "build": "webpack && nexe -i dist/bundle.js -o bin/b64 -t mac-x64-12.9.1"
+    "build": "webpack && nexe -i dist/bundle.js -o bin/b64-macos-x64 -t mac-x64-12.9.1"
   },
   "dependencies": {
     "clipboardy": "^1.2.3"
