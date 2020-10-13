@@ -1,0 +1,18 @@
+{
+  "name": "base64-clipboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bundle": "wepack",
+    "build": "webpack && nexe -i dist/bundle.js -o bin/b64 -t mac-x64-12.9.1"
+  },
+  "dependencies": {
+    "clipboardy": "^1.2.3"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.7",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
